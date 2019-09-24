@@ -1,1 +1,20 @@
 Q. True or False? Explain your answers.
+
+(a) (1 point) You can define constructors for a Java interface.
+(b) (1 point) Classes implement interfaces.
+(c) (1 point) Classes extend interfaces.
+(d) (1 point) A class that implements an interface can include methods
+that are not required by the interface.
+(e) (1 point) A class that implements an interface can leave out methods
+that are required by an interface
+(f) (1 point) You can instantiate objects of an interface.
+
+
+A.
+
+(a) False. Interface
+(b) True. public class Example<T> implements IExample<T>
+(c) False. classes can extend classes or interfaces can extend interfaces. But classes do not extend interfaces...only inherit.
+(d) False. Every method needs to be used in an interface.
+(e) True. This is where the calling class adds any missing methods not found in the interface.
+(f) False. Can’t create and instance of the interface but a reference of it that refers to the Object of its implementing class can be made.

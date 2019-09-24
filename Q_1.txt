@@ -1,1 +1,7 @@
 Q. Explain why false is printed for this piece of code. How would you fix it to print true.
+
+A. You are comparing two separate Objects. This would be true if `s1` and `s2` point to the same Object.
+
+String s1 = new String ("SMC ");
+String s2 = s1;
+System .out . println (s1 == s2 );
