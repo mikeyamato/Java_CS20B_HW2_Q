@@ -1,0 +1,1 @@
+Q. Explain why false is printed for this piece of code. How would you fix it to print true.
