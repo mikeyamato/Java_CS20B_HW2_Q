@@ -12,7 +12,7 @@ that are required by an interface
 
 A.
 
-(a) False. Interface
+(a) False. Method implementation has to be provided by the implementing class.
 (b) True. public class Example<T> implements IExample<T>
 (c) False. classes can extend classes or interfaces can extend interfaces. But classes do not extend interfaces...only inherit.
 (d) False. Every method needs to be used in an interface.
